@@ -20,6 +20,10 @@ html, body{
 	background-color: #5207c2;
 	background-image: linear-gradient(90deg, #5207c2, #8b07d5);
 }
+#panel-blog a{
+	color: #FFF;
+	font-weight: bold;
+}
 #pagin ul{
 	display: inline;
 }
@@ -30,6 +34,5 @@ html, body{
 	padding: 10px;
 }
 #pagin a{
-	color: #FFF;
-	font-weight: bold;
+
 }
