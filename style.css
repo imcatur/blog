@@ -27,7 +27,7 @@ html, body{
 #dash:before, #dash::before{
 	position: absolute;
 	content: '';
-	background: url('assets/bg.jpg') center no-repeat;
+	background: url('https://www.dropbox.com/s/woun6ips1vao5i0/bg.jpg?dl=1') center no-repeat;
 	background-size: cover;
 	top: 0;
 	left: 0;
