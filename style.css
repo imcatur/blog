@@ -79,7 +79,7 @@ html, body{
 	padding: 10px;
 }
 #contact-wa{
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	padding: 10px;
@@ -208,7 +208,6 @@ img{
 	display: block;
 	float: left;
 }
-
 *{
 	font-family: 'Montserrat', sans-serif;
 }
