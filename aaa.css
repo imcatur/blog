@@ -27,6 +27,9 @@ html, body{
 	font-weight: bold;
 	padding: 20px 10px;
 }
+#panel-blog a:hover{
+	color: #000;
+}
 #pagin ul{
 	display: inline;
 }
