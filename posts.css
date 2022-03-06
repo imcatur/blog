@@ -8,6 +8,7 @@
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 html, body{
 	font-family: 'Montserrat', sans-serif;
@@ -17,6 +18,7 @@ html, body{
 	position: relative;
 }
 #panel-blog{
+	padding: 20px 10px;
 	background-color: #5207c2;
 	background-image: linear-gradient(90deg, #5207c2, #8b07d5);
 }
