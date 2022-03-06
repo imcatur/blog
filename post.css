@@ -16,6 +16,10 @@ html, body{
 	height: 100%;
 	position: relative;
 }
+#panel-blog{
+	background-color: #5207c2;
+	background-image: linear-gradient(90deg, #5207c2, #8b07d5);
+}
 #pagin ul{
 	display: inline;
 }
@@ -23,7 +27,9 @@ html, body{
 	list-style: none;
 	display: block;
 	float: left;
+	padding: 10px;
 }
 #pagin a{
-	
+	color: #FFF;
+	font-weight: bold;
 }
