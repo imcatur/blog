@@ -1,0 +1,75 @@
+html, body{
+	font-family: 'Montserrat', sans-serif;
+/*	font-family: 'Roboto Mono', monospace;*/
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#panel-blog{
+	padding: 10px;
+	background-color: #5207c2;
+	background-image: linear-gradient(90deg, #5207c2, #8b07d5);
+}
+#panel-blog a{
+	color: #FFF;
+	padding: 10px;
+}
+#panel-blog a:hover{
+	color: #000;
+}
+#content-blog{
+	padding-top: 20px;
+}
+#pagin ul{
+	display: inline;
+}
+#pagin li{
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 10px 20px;
+}
+#pagin a{
+	background-color: #5207c2;
+	color: #FFF;
+	padding: 10px;
+}
+#pagin a:hover{
+	background-color: #FFF;
+	color: #5207c2;
+}
+#finder-form{
+	background-color: #FFF;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+#finder-center{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#finder-close{
+	background-color: #db2b2f;
+	color: #FFF;
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: none;
+	outline: none;
+}
+#finder-close:hover{
+	background-color: #FFF;
+	color: #db2b2f;
+}
+#error-page{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #EEE;
+}
