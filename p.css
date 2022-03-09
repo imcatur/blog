@@ -1,0 +1,158 @@
+html, body{
+	font-family: 'Montserrat', sans-serif;
+/*	font-family: 'Roboto Mono', monospace;*/
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#panel-blog{
+	padding: 10px;
+	background-color: #5207c2;
+	background-image: linear-gradient(90deg, #5207c2, #8b07d5);
+}
+#panel-blog a{
+	color: #FFF;
+	padding: 10px;
+}
+#panel-blog a:hover{
+	color: #000;
+}
+#content-blog{
+	padding-top: 20px;
+}
+#pagin{
+	padding: 0 10px;
+}
+#pagin ul{
+	display: inline;
+}
+#pagin li{
+	list-style: none;
+	display: block;
+	float: left;
+}
+#pagin a{
+	background-color: #5207c2;
+	color: #FFF;
+	padding: 10px;
+}
+#pagin a:hover{
+	background-color: #FFF;
+	color: #5207c2;
+}
+#footer-blog{
+	padding: 20px 100px;
+	width: 100%;
+	background-color: #000;
+}
+#footer-blog span{
+	text-align: center;
+	display: block;
+	color: #FFF;
+}
+.divi{
+	padding: 10px;
+	width: 50%;
+	float: left;
+}
+.diva{
+	padding: 10px;
+	background-color: #FFF;
+	width: 100%;
+	box-shadow: 0 0 5px #AAA;
+	border-radius: 5px;
+}
+.diva img{
+	height: 200px;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+.diva a{
+	color: #FFF;
+	background-color: #5207c2;
+	padding: 5px 10px;
+	display: block;
+	border-radius: 5px;
+}
+.diva a:hover, .diva a:focus{
+	color: #5207c2;
+	background-color: #FFF;
+}
+@media screen and (max-width: 480px){
+	.divi{
+		float: none;
+		width: 100%;
+	}
+}
+.link-red{
+	color: #FFF;
+	background-color: #5207c2;
+	display: inline;
+	padding: 1px 5px;
+	border-radius: 5px;
+}
+.link-red:hover, .link-red:focus{
+	color: #5207c2;
+	background-color: #FFF;
+}
+.link-red-outer{
+	color: #FFF;
+	background-color: #3e2a5cff;
+	display: inline;
+	padding: 1px 5px;
+	border-radius: 5px;
+}
+.link-red-outer:hover, .link-red-outer:focus{
+	color: #3e2a5cff;
+	background-color: #FFF;
+}
+.code{
+	padding: 10px;
+	color: #31246a;
+	font-family: 'Space Mono', monospace;
+	-moz-tab-size: 3;
+	tab-size: 3;
+}
+.comments h4, .blog-pager, .post-feeds{
+	font-size: 16px;
+}
+.spacer{
+	height: 20px;
+}
+#finder-form{
+	background-color: #FFF;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+#finder-center{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#finder-close{
+	background-color: #db2b2f;
+	color: #FFF;
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: none;
+	outline: none;
+}
+#finder-close:hover{
+	background-color: #FFF;
+	color: #db2b2f;
+}
+.error-page{
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #EEE;
+}
