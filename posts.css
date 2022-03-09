@@ -96,6 +96,17 @@ html, body{
 	color: #5207c2;
 	background-color: #FFF;
 }
+.link-red-outer{
+	color: #FFF;
+	background-color: #3e2a5cff;
+	display: inline;
+	padding: 1px 5px;
+	border-radius: 5px;
+}
+.link-red-outer:hover, .link-red-outer:focus{
+	color: #3e2a5cff;
+	background-color: #FFF;
+}
 .code{
 	padding: 10px;
 	color: #31246a;
